@@ -12,6 +12,8 @@ This repository contains LeetCode solutions organized by algorithmic approaches 
 
 ```
 Leetcode101/
+├── binarySearch/        # Binary Search
+│   └── cpp/            # C++ Implementation
 ├── greedy/              # Greedy Algorithm
 │   ├── cpp/            # C++ Implementation
 │   ├── python/         # Python Implementation
@@ -31,7 +33,16 @@ Leetcode101/
 
 ## 📖 Problem Index by Algorithm
 
-### 1️⃣ Greedy Algorithm
+### 1️⃣ Binary Search
+
+Binary search is an efficient algorithm for finding a target value within a sorted array by repeatedly dividing the search interval in half.
+
+| # | Problem | Difficulty | C++ | Python | Swift |
+|---|------|------|-----|--------|-------|
+| 34 | Find First and Last Position of Element in Sorted Array | Medium | [✓](binartSearch/cpp/34.find-first-and-last-position-of-element-in-sorted-array.cpp) | - | - |
+| 69 | Sqrt(x) | Easy | [✓](binartSearch/cpp/69.sqrt-x.cpp) | - | - |
+
+### 2️⃣ Greedy Algorithm
 
 A greedy algorithm makes locally optimal choices at each step with the hope of finding a global optimum.
 
@@ -47,7 +58,7 @@ A greedy algorithm makes locally optimal choices at each step with the hope of f
 | 665 | Non-decreasing Array | Medium | [✓](greedy/cpp/665.non-decreasing-array.cpp) | [✓](greedy/python/665.non-decreasing-array.py) | [✓](greedy/swift/665.non-decreasing-array.swift) |
 | 763 | Partition Labels | Medium | [✓](greedy/cpp/763.partition-labels.cpp) | [✓](greedy/python/763.partition-labels.py) | [✓](greedy/swift/763.partition-labels.swift) |
 
-### 2️⃣ Two Pointers
+### 3️⃣ Two Pointers
 
 The two pointers technique is commonly used for array or linked list problems, optimizing algorithm complexity by maintaining two different position pointers.
 
@@ -90,14 +101,14 @@ swiftc greedy/swift/455.assign-cookies.swift -o solution
 
 ## 📊 Statistics
 
-- **Total Problems**: 21
-- **Algorithm Categories**: 2
+- **Total Problems**: 23
+- **Algorithm Categories**: 3
 - **Supported Languages**: 3
 
 ### Difficulty Distribution
 
-- **Easy**: 7 problems
-- **Medium**: 12 problems
+- **Easy**: 8 problems
+- **Medium**: 13 problems
 - **Hard**: 2 problems
 
 ## 🎯 Learning Tips

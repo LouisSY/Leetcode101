@@ -12,6 +12,8 @@ LeetCode 算法题解集合，按照算法分类整理，支持多种编程语�
 
 ```
 Leetcode101/
+├── binarySearch/        # 二分查找
+│   └── cpp/            # C++ 实现
 ├── greedy/              # 贪心算法
 │   ├── cpp/            # C++ 实现
 │   ├── python/         # Python 实现
@@ -31,7 +33,16 @@ Leetcode101/
 
 ## 📖 算法分类索引
 
-### 1️⃣ 贪心算法 (Greedy)
+### 1️⃣ 二分查找 (Binary Search)
+
+二分查找是一种高效的搜索算法，通过反复将搜索区间减半来在有序数组中查找目标值。
+
+| # | 题目 | 难度 | C++ | Python | Swift |
+|---|------|------|-----|--------|-------|
+| 34 | Find First and Last Position of Element in Sorted Array | Medium | [✓](binartSearch/cpp/34.find-first-and-last-position-of-element-in-sorted-array.cpp) | - | - |
+| 69 | Sqrt(x) | Easy | [✓](binartSearch/cpp/69.sqrt-x.cpp) | - | - |
+
+### 2️⃣ 贪心算法 (Greedy)
 
 贪心算法是一种在每一步选择中都采取当前状态下最优的选择，从而希望导致结果是最优或较优的算法。
 
@@ -47,7 +58,7 @@ Leetcode101/
 | 665 | Non-decreasing Array | Medium | [✓](greedy/cpp/665.non-decreasing-array.cpp) | [✓](greedy/python/665.non-decreasing-array.py) | [✓](greedy/swift/665.non-decreasing-array.swift) |
 | 763 | Partition Labels | Medium | [✓](greedy/cpp/763.partition-labels.cpp) | [✓](greedy/python/763.partition-labels.py) | [✓](greedy/swift/763.partition-labels.swift) |
 
-### 2️⃣ 双指针 (Two Pointers)
+### 3️⃣ 双指针 (Two Pointers)
 
 双指针技巧主要用于处理数组或链表中的问题，通过维护两个不同位置的指针来优化算法复杂度。
 
@@ -90,14 +101,14 @@ swiftc greedy/swift/455.assign-cookies.swift -o solution
 
 ## 📊 统计信息
 
-- **总题目数**: 21 题
-- **算法分类**: 2 类
+- **总题目数**: 23 题
+- **算法分类**: 3 类
 - **支持语言**: 3 种
 
 ### 题目难度分布
 
-- **Easy**: 7 题
-- **Medium**: 12 题
+- **Easy**: 8 题
+- **Medium**: 13 题
 - **Hard**: 2 题
 
 ## 🎯 学习建议
