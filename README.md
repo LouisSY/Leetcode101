@@ -13,15 +13,15 @@ This repository contains LeetCode solutions organized by algorithmic approaches 
 ```
 Leetcode101/
 ├── binarySearch/        # Binary Search
-│   └── cpp/            # C++ Implementation
+│   ├── cpp/            # C++ Implementation
+│   └── python/         # Python Implementation
 ├── greedy/              # Greedy Algorithm
 │   ├── cpp/            # C++ Implementation
 │   ├── python/         # Python Implementation
 │   └── swift/          # Swift Implementation
 ├── twoPointers/        # Two Pointers Technique
 │   ├── cpp/            # C++ Implementation
-│   ├── python/         # Python Implementation
-│   └── swift/          # Swift Implementation
+│   └── python/         # Python Implementation
 └── README.md
 ```
 
@@ -39,8 +39,10 @@ Binary search is an efficient algorithm for finding a target value within a sort
 
 | # | Problem | Difficulty | C++ | Python | Swift |
 |---|------|------|-----|--------|-------|
-| 34 | Find First and Last Position of Element in Sorted Array | Medium | [✓](binartSearch/cpp/34.find-first-and-last-position-of-element-in-sorted-array.cpp) | - | - |
-| 69 | Sqrt(x) | Easy | [✓](binartSearch/cpp/69.sqrt-x.cpp) | - | - |
+| 34 | Find First and Last Position of Element in Sorted Array | Medium | [✓](binartSearch/cpp/34.find-first-and-last-position-of-element-in-sorted-array.cpp) | [✓](binartSearch/python/34.find-first-and-last-position-of-element-in-sorted-array.py) | - |
+| 69 | Sqrt(x) | Easy | [✓](binartSearch/cpp/69.sqrt-x.cpp) | [✓](binartSearch/python/69.sqrt-x.py) | - |
+| 81 | Search in Rotated Sorted Array II | Medium | [✓](binartSearch/cpp/81.search-in-rotated-sorted-array-ii.cpp) | - | - |
+| 162 | Find Peak Element | Medium | [✓](binartSearch/cpp/162.find-peak-element.cpp) | - | - |
 
 ### 2️⃣ Greedy Algorithm
 
@@ -101,14 +103,14 @@ swiftc greedy/swift/455.assign-cookies.swift -o solution
 
 ## 📊 Statistics
 
-- **Total Problems**: 23
+- **Total Problems**: 25
 - **Algorithm Categories**: 3
 - **Supported Languages**: 3
 
 ### Difficulty Distribution
 
 - **Easy**: 8 problems
-- **Medium**: 13 problems
+- **Medium**: 15 problems
 - **Hard**: 2 problems
 
 ## 🎯 Learning Tips

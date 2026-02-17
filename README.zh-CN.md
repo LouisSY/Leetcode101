@@ -13,15 +13,15 @@ LeetCode 算法题解集合，按照算法分类整理，支持多种编程语�
 ```
 Leetcode101/
 ├── binarySearch/        # 二分查找
-│   └── cpp/            # C++ 实现
+│   ├── cpp/            # C++ 实现
+│   └── python/         # Python 实现
 ├── greedy/              # 贪心算法
 │   ├── cpp/            # C++ 实现
 │   ├── python/         # Python 实现
 │   └── swift/          # Swift 实现
 ├── twoPointers/        # 双指针技巧
 │   ├── cpp/            # C++ 实现
-│   ├── python/         # Python 实现
-│   └── swift/          # Swift 实现
+│   └── python/         # Python 实现
 └── README.md
 ```
 
@@ -39,8 +39,10 @@ Leetcode101/
 
 | # | 题目 | 难度 | C++ | Python | Swift |
 |---|------|------|-----|--------|-------|
-| 34 | Find First and Last Position of Element in Sorted Array | Medium | [✓](binartSearch/cpp/34.find-first-and-last-position-of-element-in-sorted-array.cpp) | - | - |
-| 69 | Sqrt(x) | Easy | [✓](binartSearch/cpp/69.sqrt-x.cpp) | - | - |
+| 34 | Find First and Last Position of Element in Sorted Array | Medium | [✓](binartSearch/cpp/34.find-first-and-last-position-of-element-in-sorted-array.cpp) | [✓](binartSearch/python/34.find-first-and-last-position-of-element-in-sorted-array.py) | - |
+| 69 | Sqrt(x) | Easy | [✓](binartSearch/cpp/69.sqrt-x.cpp) | [✓](binartSearch/python/69.sqrt-x.py) | - |
+| 81 | Search in Rotated Sorted Array II | Medium | [✓](binartSearch/cpp/81.search-in-rotated-sorted-array-ii.cpp) | - | - |
+| 162 | Find Peak Element | Medium | [✓](binartSearch/cpp/162.find-peak-element.cpp) | - | - |
 
 ### 2️⃣ 贪心算法 (Greedy)
 
@@ -101,14 +103,14 @@ swiftc greedy/swift/455.assign-cookies.swift -o solution
 
 ## 📊 统计信息
 
-- **总题目数**: 23 题
+- **总题目数**: 25 题
 - **算法分类**: 3 类
 - **支持语言**: 3 种
 
 ### 题目难度分布
 
 - **Easy**: 8 题
-- **Medium**: 13 题
+- **Medium**: 15 题
 - **Hard**: 2 题
 
 ## 🎯 学习建议
