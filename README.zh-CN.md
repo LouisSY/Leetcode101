@@ -1,39 +1,39 @@
 # LeetCode 101
 
-English | [简体中文](README.zh-CN.md)
+[English](README.md) | 简体中文
 
-A curated collection of LeetCode problem solutions, systematically organized by algorithm patterns and supporting multiple programming languages.
+LeetCode 算法题解集合，按照算法分类整理，支持多种编程语言实现。
 
-## 📚 About
+## 📚 项目简介
 
-This repository contains LeetCode solutions organized by algorithmic approaches to help understand and master common algorithm patterns. Each problem includes implementations in C++, Python, and Swift, making it accessible for developers from different language backgrounds.
+本项目是 LeetCode 刷题的代码仓库，旨在通过系统化的分类方式帮助理解和掌握常见算法思想。每道题目都提供了 C++、Python 和 Swift 三种语言的实现，方便不同语言背景的学习者参考。
 
-## 🗂️ Project Structure
+## 🗂️ 项目结构
 
 ```
 Leetcode101/
-├── greedy/              # Greedy Algorithm
-│   ├── cpp/            # C++ Implementation
-│   ├── python/         # Python Implementation
-│   └── swift/          # Swift Implementation
-├── twoPointers/        # Two Pointers Technique
-│   ├── cpp/            # C++ Implementation
-│   ├── python/         # Python Implementation
-│   └── swift/          # Swift Implementation
+├── greedy/              # 贪心算法
+│   ├── cpp/            # C++ 实现
+│   ├── python/         # Python 实现
+│   └── swift/          # Swift 实现
+├── twoPointers/        # 双指针技巧
+│   ├── cpp/            # C++ 实现
+│   ├── python/         # Python 实现
+│   └── swift/          # Swift 实现
 └── README.md
 ```
 
-## 💻 Supported Languages
+## 💻 支持的语言
 
 - **C++**
 - **Python**
 - **Swift**
 
-## 📖 Problem Index by Algorithm
+## 📖 算法分类索引
 
-### 1️⃣ Greedy Algorithm
+### 1️⃣ 贪心算法 (Greedy)
 
-A greedy algorithm makes locally optimal choices at each step with the hope of finding a global optimum.
+贪心算法是一种在每一步选择中都采取当前状态下最优的选择，从而希望导致结果是最优或较优的算法。
 
 | # | 题目 | 难度 | C++ | Python | Swift |
 |---|------|------|-----|--------|-------|
@@ -47,11 +47,11 @@ A greedy algorithm makes locally optimal choices at each step with the hope of f
 | 665 | Non-decreasing Array | Medium | [✓](greedy/cpp/665.non-decreasing-array.cpp) | [✓](greedy/python/665.non-decreasing-array.py) | [✓](greedy/swift/665.non-decreasing-array.swift) |
 | 763 | Partition Labels | Medium | [✓](greedy/cpp/763.partition-labels.cpp) | [✓](greedy/python/763.partition-labels.py) | [✓](greedy/swift/763.partition-labels.swift) |
 
-### 2️⃣ Two Pointers
+### 2️⃣ 双指针 (Two Pointers)
 
-The two pointers technique is commonly used for array or linked list problems, optimizing algorithm complexity by maintaining two different position pointers.
+双指针技巧主要用于处理数组或链表中的问题，通过维护两个不同位置的指针来优化算法复杂度。
 
-| # | Problem | Difficulty | C++ | Python | Swift |
+| # | 题目 | 难度 | C++ | Python | Swift |
 |---|------|------|-----|--------|-------|
 | 26 | Remove Duplicates from Sorted Array | Easy | [✓](twoPointers/cpp/26.remove-duplicates-from-sorted-array.cpp) | - | - |
 | 27 | Remove Element | Easy | [✓](twoPointers/cpp/27.remove-element.cpp) | - | - |
@@ -66,55 +66,55 @@ The two pointers technique is commonly used for array or linked list problems, o
 | 633 | Sum of Square Numbers | Medium | [✓](twoPointers/cpp/633.sum-of-square-numbers.cpp) | - | - |
 | 680 | Valid Palindrome II | Easy | [✓](twoPointers/cpp/680.valid-palindrome-ii.cpp) | - | - |
 
-## 🚀 Usage
+## 🚀 使用说明
 
 ### C++
 ```bash
-# Compile and run (using problem 455 as example)
+# 编译运行（以 455 题为例）
 g++ -std=c++11 greedy/cpp/455.assign-cookies.cpp -o solution
 ./solution
 ```
 
 ### Python
 ```bash
-# Run directly (using problem 455 as example)
+# 直接运行（以 455 题为例）
 python greedy/python/455.assign-cookies.py
 ```
 
 ### Swift
 ```bash
-# Compile and run (using problem 455 as example)
+# 编译运行（以 455 题为例）
 swiftc greedy/swift/455.assign-cookies.swift -o solution
 ./solution
 ```
 
-## 📊 Statistics
+## 📊 统计信息
 
-- **Total Problems**: 21
-- **Algorithm Categories**: 2
-- **Supported Languages**: 3
+- **总题目数**: 21 题
+- **算法分类**: 2 类
+- **支持语言**: 3 种
 
-### Difficulty Distribution
+### 题目难度分布
 
-- **Easy**: 7 problems
-- **Medium**: 12 problems
-- **Hard**: 2 problems
+- **Easy**: 7 题
+- **Medium**: 12 题
+- **Hard**: 2 题
 
-## 🎯 Learning Tips
+## 🎯 学习建议
 
-1. **Progressive Learning**: Start with Easy problems and gradually progress to Hard
-2. **Multi-language Comparison**: Try implementing the same problem in different languages to understand language-specific features
-3. **Pattern Recognition**: Problems in the same category often share similar solving approaches
-4. **Repeated Practice**: For unfamiliar problems, revisit and re-implement them after some time
+1. **循序渐进**: 建议按照难度从 Easy 到 Hard 逐步学习
+2. **多语言对比**: 尝试用不同语言实现同一题目，理解不同语言的特性
+3. **算法归类**: 相同算法分类的题目往往有相似的解题思路，可以总结规律
+4. **反复练习**: 对于不熟悉的题目，建议间隔一段时间后重新实现
 
-## 📝 Contributing
+## 📝 贡献
 
-Contributions of new solutions or optimizations to existing implementations are welcome!
+欢迎提交新的题解或优化现有实现！
 
 ## 📄 License
 
-This project is for learning and educational purposes only.
+本项目仅供学习交流使用。
 
 ---
 
-⭐ If this project helps you, please consider giving it a Star!
+⭐ 如果这个项目对你有帮助，欢迎 Star！
