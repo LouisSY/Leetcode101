@@ -39,10 +39,13 @@ Leetcode101/
 
 | # | 题目 | 难度 | C++ | Python | Swift |
 |---|------|------|-----|--------|-------|
-| 34 | Find First and Last Position of Element in Sorted Array | Medium | [✓](binartSearch/cpp/34.find-first-and-last-position-of-element-in-sorted-array.cpp) | [✓](binartSearch/python/34.find-first-and-last-position-of-element-in-sorted-array.py) | - |
-| 69 | Sqrt(x) | Easy | [✓](binartSearch/cpp/69.sqrt-x.cpp) | [✓](binartSearch/python/69.sqrt-x.py) | - |
-| 81 | Search in Rotated Sorted Array II | Medium | [✓](binartSearch/cpp/81.search-in-rotated-sorted-array-ii.cpp) | - | - |
-| 162 | Find Peak Element | Medium | [✓](binartSearch/cpp/162.find-peak-element.cpp) | - | - |
+| 4 | Median of Two Sorted Arrays | Hard | [✓](binarySearch/cpp/4.median-of-two-sorted-arrays.cpp) | - | - |
+| 34 | Find First and Last Position of Element in Sorted Array | Medium | [✓](binarySearch/cpp/34.find-first-and-last-position-of-element-in-sorted-array.cpp) | [✓](binarySearch/python/34.find-first-and-last-position-of-element-in-sorted-array.py) | - |
+| 69 | Sqrt(x) | Easy | [✓](binarySearch/cpp/69.sqrt-x.cpp) | [✓](binarySearch/python/69.sqrt-x.py) | - |
+| 81 | Search in Rotated Sorted Array II | Medium | [✓](binarySearch/cpp/81.search-in-rotated-sorted-array-ii.cpp) | - | - |
+| 154 | Find Minimum in Rotated Sorted Array II | Hard | [✓](binarySearch/cpp/154.find-minimum-in-rotated-sorted-array-ii.cpp) | - | - |
+| 162 | Find Peak Element | Medium | [✓](binarySearch/cpp/162.find-peak-element.cpp) | - | - |
+| 540 | Single Element in a Sorted Array | Medium | [✓](binarySearch/cpp/540.single-element-in-a-sorted-array.cpp) | - | - |
 
 ### 2️⃣ 贪心算法 (Greedy)
 
@@ -103,15 +106,15 @@ swiftc greedy/swift/455.assign-cookies.swift -o solution
 
 ## 📊 统计信息
 
-- **总题目数**: 25 题
+- **总题目数**: 28 题
 - **算法分类**: 3 类
 - **支持语言**: 3 种
 
 ### 题目难度分布
 
 - **Easy**: 8 题
-- **Medium**: 15 题
-- **Hard**: 2 题
+- **Medium**: 18 题
+- **Hard**: 4 题
 
 ## 🎯 学习建议
 

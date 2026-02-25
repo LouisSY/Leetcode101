@@ -39,10 +39,13 @@ Binary search is an efficient algorithm for finding a target value within a sort
 
 | # | Problem | Difficulty | C++ | Python | Swift |
 |---|------|------|-----|--------|-------|
-| 34 | Find First and Last Position of Element in Sorted Array | Medium | [✓](binartSearch/cpp/34.find-first-and-last-position-of-element-in-sorted-array.cpp) | [✓](binartSearch/python/34.find-first-and-last-position-of-element-in-sorted-array.py) | - |
-| 69 | Sqrt(x) | Easy | [✓](binartSearch/cpp/69.sqrt-x.cpp) | [✓](binartSearch/python/69.sqrt-x.py) | - |
-| 81 | Search in Rotated Sorted Array II | Medium | [✓](binartSearch/cpp/81.search-in-rotated-sorted-array-ii.cpp) | - | - |
-| 162 | Find Peak Element | Medium | [✓](binartSearch/cpp/162.find-peak-element.cpp) | - | - |
+| 4 | Median of Two Sorted Arrays | Hard | [✓](binarySearch/cpp/4.median-of-two-sorted-arrays.cpp) | - | - |
+| 34 | Find First and Last Position of Element in Sorted Array | Medium | [✓](binarySearch/cpp/34.find-first-and-last-position-of-element-in-sorted-array.cpp) | [✓](binarySearch/python/34.find-first-and-last-position-of-element-in-sorted-array.py) | - |
+| 69 | Sqrt(x) | Easy | [✓](binarySearch/cpp/69.sqrt-x.cpp) | [✓](binarySearch/python/69.sqrt-x.py) | - |
+| 81 | Search in Rotated Sorted Array II | Medium | [✓](binarySearch/cpp/81.search-in-rotated-sorted-array-ii.cpp) | - | - |
+| 154 | Find Minimum in Rotated Sorted Array II | Hard | [✓](binarySearch/cpp/154.find-minimum-in-rotated-sorted-array-ii.cpp) | - | - |
+| 162 | Find Peak Element | Medium | [✓](binarySearch/cpp/162.find-peak-element.cpp) | - | - |
+| 540 | Single Element in a Sorted Array | Medium | [✓](binarySearch/cpp/540.single-element-in-a-sorted-array.cpp) | - | - |
 
 ### 2️⃣ Greedy Algorithm
 
@@ -103,15 +106,15 @@ swiftc greedy/swift/455.assign-cookies.swift -o solution
 
 ## 📊 Statistics
 
-- **Total Problems**: 25
+- **Total Problems**: 28
 - **Algorithm Categories**: 3
 - **Supported Languages**: 3
 
 ### Difficulty Distribution
 
 - **Easy**: 8 problems
-- **Medium**: 15 problems
-- **Hard**: 2 problems
+- **Medium**: 18 problems
+- **Hard**: 4 problems
 
 ## 🎯 Learning Tips
 
